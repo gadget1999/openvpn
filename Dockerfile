@@ -1,5 +1,5 @@
 # Smallest base image
-FROM alpine:latest
+FROM alpine:3.12
 
 LABEL maintainer="docker@ix.ai" \
       ai.ix.repository="ix.ai/openvpn"
